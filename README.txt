@@ -1,14 +1,13 @@
-PROJECT V — v2.1
-FREE, no account, no subscription. All logs stored on your own device/browser.
+PROJECT V 4.0 — free local-first training tracker
 
-QUICK START: open index.html in a browser. The standalone version works without internet, except external research/video links. Some Android file viewers cannot run JavaScript or save browser storage reliably. Test by logging a set, closing/reopening, and checking history. Export backups regularly.
+UPGRADE
+1. Export your private workout backup in Settings before updating.
+2. Unzip this archive. Upload ALL six files directly into the root of the SAME GitHub Pages repository, replacing existing files. Do not upload the ZIP itself.
+3. Commit, wait for Pages deployment to finish, then open your existing site online in Chrome. Reload, close and reopen the installed app. Check the version in Settings.
+4. Test offline with airplane mode after the new version has loaded. Do not clear browser/site storage to force the update; that may erase your workouts.
 
-INSTALLABLE VERSION (recommended): extract this ZIP. Create a public GitHub repository with your free account; upload the CONTENTS of this folder (index.html, sw.js, manifest.webmanifest, two icons) at repository root. In repository Settings > Pages, choose Deploy from a branch, main / root. Open the published HTTPS URL on Android Chrome. Once the page and service worker load, use Chrome menu > Install app or Add to Home screen. Test offline after first visit. Existing users: export a v1 JSON backup before updating and restore it in v2 if necessary. Valid version-1 backups remain supported. The hosted and standalone versions share a data format, not storage across browsers or addresses. Do not upload your personal backup JSON to the public repo. No account is needed to use the app itself. You may also host these files on any HTTPS static host. Not hosted by ChatGPT.
+NEW: Light editorial UI; visible exercise list with thumbnails; 49 original two-position illustrated guides embedded in the app. They are schematic movement illustrations, not photographs or certified technique demonstrations. Follow the exact written cues, equipment and safety warnings; online video search is optional. No network connection is needed for the illustrations.
 
-WORKOUT: choose mode, Standard or Minimum, then Start guided workout. Log each set, resistance/setup and RIR. Timer starts automatically. Save session at Finish; A/B alternates after a complete session; partial sessions remain in history without advancing the day. Stop early as needed. Log the actual reps and RIR rather than planned numbers. For unilateral exercises, perform both sides and log reps for the weaker side. For holds, log seconds and approximate effort. The rules and library work offline; video search requires internet.
+DATA: Same storage key and PWA identity as v3. The app stores records in your browser, not your public repository. Never upload your workout backup JSON to GitHub. Existing data stays local on the same origin if browser storage is preserved.
 
-BACKUP: Settings > Export backup. Save JSON somewhere private. Restore backup replaces existing records. Moving from local HTML to hosted PWA requires exporting then restoring; storage does not automatically transfer.
-
-SAFETY: start conservatively, check equipment, and obtain medical assessment before vigorous activity for unexplained chest pain. This app is educational, not medical advice. Exercise cues are text, not individual coaching or fully validated demonstrations.
-
-One-off gym day: choose Quick, Standard or Extended and Replace or Extra. A completed replacement advances A/B; an extra or partial session does not. Your usual environment remains unchanged. Export a backup before updating. v2.1 reads v2.0 backups; do not restore new gym-day records into v2.0.
+INSTALL: GitHub Pages, main branch, /(root). Open your Pages URL on Android Chrome and Add to Home screen / Install app if offered. No subscriptions or required app account.
